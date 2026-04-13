@@ -4,9 +4,9 @@ The code is released under the Creative Commons Attribution 4.0 International (C
 
 1. Required input:
    
-        i. Copy the 4 python codes (1_gaussian_inp.py, 2_gaussian_error.py, 3_orca_inp.py, 4_cclib.py) into your desired working directory.
-        ii. In your terminal, go to your desired working directory.
-        iii. Have a folder with xyz files or the path to a specific .xyz file ready.
+    i. Copy the 4 python codes (1_gaussian_inp.py, 2_gaussian_error.py, 3_orca_inp.py, 4_cclib.py) into your desired working directory.
+    ii. In your terminal, go to your desired working directory.
+    iii. Have a folder with xyz files or the path to a specific .xyz file ready.
    
 3. Run "python 1_gaussian_inp.py molecule.xyz" or "python 1_gaussian_inp.py path/to/molecule/folder" in your terminal. This code will generate 
         1. gaussian com files for all geometric files in a folder or specified .xyz file.
