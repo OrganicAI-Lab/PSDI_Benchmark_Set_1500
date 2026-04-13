@@ -3,6 +3,7 @@ This repository contains the code associated with the publication "Multireferenc
 The code is released under the Creative Commons Attribution 4.0 International (CC BY 4.0) licence. Any use of the code or associated data must be accompanied by appropriate citation of the publication.
 
 1. Required input:
+   
         i. Copy the 4 python codes (1_gaussian_inp.py, 2_gaussian_error.py, 3_orca_inp.py, 4_cclib.py) into your desired working directory.
         ii. In your terminal, go to your desired working directory.
         iii. Have a folder with xyz files or the path to a specific .xyz file ready.
