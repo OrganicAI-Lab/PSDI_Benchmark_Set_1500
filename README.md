@@ -4,11 +4,11 @@ The code is released under the Creative Commons Attribution 4.0 International (C
 
 1. Required input:
    
-    1. Copy the 4 python codes (1_gaussian_inp.py, 2_gaussian_error.py, 3_orca_inp.py, 4_cclib.py) into your desired working directory.
+    1. Copy the 4 python codes (`1_gaussian_inp.py`, `2_gaussian_error.py`, `3_orca_inp.py`, `4_cclib.py`) into your desired working directory.
     2. In your terminal, go to your desired working directory.
     3. Have a folder with xyz files or the path to a specific .xyz file ready.
    
-2. Run "python 1_gaussian_inp.py molecule.xyz" or "python 1_gaussian_inp.py path/to/molecule/folder" in your terminal. This code will generate
+2. Run ```python 1_gaussian_inp.py molecule.xyz``` or ```python 1_gaussian_inp.py path/to/molecule/folder``` in your terminal. This code will generate
 
     1. gaussian com files for all geometric files in a folder or specified .xyz file.
     2. an array slurm job submission file.
@@ -21,7 +21,7 @@ The code is released under the Creative Commons Attribution 4.0 International (C
       2. the calculation parameters in the main function.
 
 
-3. Once calculations are completed run "python 2_gaussian_error.py" in your terminal. This code will determine if any calculations produced the errors l103, l502 or l9999 and attempt to fix the error by generating
+3. Once calculations are completed run ```python 2_gaussian_error.py``` in your terminal. This code will determine if any calculations produced the errors l103, l502 or l9999 and attempt to fix the error by generating
    
    1. gaussian com files for log files with error l103, l502 and l9999.
    2. an array slurm job submission file for these error com files.
@@ -36,7 +36,7 @@ The code is released under the Creative Commons Attribution 4.0 International (C
    If the calculations did not produce an error, they are ready for the next step instead.
 
 
-4. Once all calculations are completed and successful, run "python 3_orca_inp.py" in your terminal. This code will generate
+4. Once all calculations are completed and successful, run ```python 3_orca_inp.py``` in your terminal. This code will generate
    
    1. fchk for gaussian chk files.
    2. optimised xyz for these generated fchk files.
@@ -51,7 +51,7 @@ The code is released under the Creative Commons Attribution 4.0 International (C
       2. the calculation parameters in the main function and the orca_template.
 
 
-5. Run "python 4_cclib.py" in your terminal. This code will generate
+5. Run ```python 4_cclib.py``` in your terminal. This code will generate
    
    1. Excited_states_energy.csv with ID, job cpu time, SMILES, InChI, molecular formula, number of atoms, and E(S1), E(S2), E(T1), E(T2), f(S1), f(S2) for each theory level.
 
